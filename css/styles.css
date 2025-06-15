@@ -28,7 +28,7 @@ ul {
   list-style-type: none;
 }
 
-.nav-list {
+.nav-li {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -37,9 +37,9 @@ ul {
   color: #2e2f42;
   text-decoration: none;
 }
-.nav-list:hover,
-.nav-list:focus,
-.nav-list:active {
+.nav-li:hover,
+.nav-li:focus,
+.nav-li:active {
   color: #404bbf;
 }
 
@@ -47,7 +47,7 @@ ul {
   font-style: normal;
 }
 
-.address-link {
+.email-tel {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -56,16 +56,16 @@ ul {
   color: #434455;
   text-decoration: none;
 }
-.address-link:hover,
-.address-link:focus {
+.email-tel:hover,
+.email-tel:focus {
   color: #404bbf;
 }
 
-.hero-section {
+.hero {
   background: #2e2f42;
 }
 
-.hero-title {
+.title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -75,7 +75,7 @@ ul {
   color: #fff;
 }
 
-.hero-button {
+.button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -85,17 +85,17 @@ ul {
   background: #4d5ae5;
   text-align: center;
 }
-.hero-button:hover,
-.hero-button:focus {
+.button:hover,
+.button:focus {
   cursor: pointer;
   background: #404bbf;
 }
 
-.advantages-section section {
+.advantages {
   background: #f4f4fd;
 }
 
-.section-title {
+.title-team {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -106,11 +106,11 @@ ul {
   text-transform: capitalize;
 }
 
-.team-member-card {
+.box-ul {
   background-color: #ffffff;
 }
 
-.advantages-item {
+.item-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -119,7 +119,7 @@ ul {
   color: #2e2f42;
 }
 
-.advantages-text {
+.paragraph {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -128,11 +128,11 @@ ul {
   color: #434455;
 }
 
-.team-section section {
+.team {
   background: #f4f4fd;
 }
 
-.team-section section .team-list {
+.team .our-team-list {
   text-align: center;
 }
 
@@ -151,7 +151,7 @@ ul {
   text-transform: capitalize;
 }
 
-.footer-text {
+.footer-p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
